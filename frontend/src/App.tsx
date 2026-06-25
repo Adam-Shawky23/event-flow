@@ -12,7 +12,7 @@ import MessagingPage from './pages/MessagingPage';
 import AdminExportPage from './pages/AdminExportPage';
 import EventBookingsPage from './pages/EventBookingsPage';
 
-function ProtectedRoute({ children, roles }: { children: JSX.Element; roles?: string[] }) {
+function ProtectedRoute({ children, roles }: { children: React.ReactElement; roles?: string[] }) {
   const { user, isAuthenticated } = useAuth();
   if (!isAuthenticated) return <Navigate to="/" />;
   if (roles && user && !roles.includes(user.role)) return <Navigate to="/home" />;

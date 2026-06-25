@@ -333,7 +333,6 @@ const styles: Record<string, React.CSSProperties> = {
     cursor: 'pointer',
   },
   exportBtnMobile: {
-    width: '100%',
     padding: '12px',
     borderRadius: 'var(--radius-sm)',
     border: '1px solid var(--color-border)',
