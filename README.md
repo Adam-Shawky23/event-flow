@@ -1,5 +1,5 @@
 EventFlow
-Live Demo: https://6a3e5f46e33e3309179ead47--eventflowfg.netlify.app
+Live Demo: [https://6a3e5f46e33e3309179ead47--eventflowfg.netlify.app](https://eventflowfg.netlify.app)
 
 What is EventFlow?
 EventFlow is a full-stack event management and online ticket booking platform. Users can create and publish events, browse and book tickets, communicate with organizers, and receive personalized event recommendations — all through a clean, responsive web interface.
